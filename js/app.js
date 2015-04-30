@@ -33,6 +33,7 @@ $(document).ready(function() {
 	  	 if(keycode == '88'){
 	  	 $('.ryu-still').hide();
 	  	 $('.ryu-looking-cool').show();
+    	}
     })
     $("html").keyup(function(event) {
 	    var keycode = (event.keyCode ? event.keyCode : event.which);
