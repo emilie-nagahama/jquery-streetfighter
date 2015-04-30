@@ -37,10 +37,10 @@ $(document).ready(function() {
     })
     $("html").keyup(function(event) {
 	    var keycode = (event.keyCode ? event.keyCode : event.which);
-	  	 if(keycode == '88')
+	  	 if(keycode == '88') {
 		$('.ryu-still').show();
 	  	$('.ryu-looking-cool').hide();
-    })
+    	}
   	});
    
 });
